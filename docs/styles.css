@@ -1,8 +1,26 @@
-body {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#516395+0,614385+100 */
-  background: #516395; /* Old browsers */
-  background: -moz-linear-gradient(top, #516395 0%, #614385 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #516395 0%,#614385 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #516395 0%,#614385 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#516395', endColorstr='#614385',GradientType=0 ); /* IE6-9 */
+/*
+* General Page
+*/
+
+body { background-color: #151515; }
+
+
+/*
+* Header
+*/
+
+
+/*
+* Search Form
+*/
+div.row.search-row {
+  text-align: center;
+}
+
+body > div > div.row.search-row > div > form > input[type=text] {
+  background-color: #DFDFDF;
+}
+
+body > div > div.row.search-row > div > form > input[type=text]:focus {
+  outline: none;
 }
